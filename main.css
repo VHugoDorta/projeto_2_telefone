@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 140px;
+    margin-top: 40px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 230px;
+    
+}
+
+form{
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    border-bottom: 2px solid;
+}
+
+form button {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(26, 26, 202);
+    color: black;
+    cursor: pointer;
+}
+
+
+.titulo {
+    font-size: 34px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+table{
+  width: 81%;
+  margin-top: 20px;  
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 30x;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    font-size: 24px;
+    margin-top:10px;
+}
